@@ -8,7 +8,7 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
-  background-color: #fff;
+  background-color: #eee6e6;
 }
 
 .curesol-main-div {
@@ -29,12 +29,14 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   text-shadow: 2px 2px 4px rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  font-size: 5vw;
+  font-size: 60px;
 }
 
 .home-page-text2 {
   font-size: 2vw;
-  color: #000000;
+  text-shadow: 2px 2px 4px rgb(24, 21, 21);
+  font-size: 30px;
+  color: #ffffff;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 .home-text-main-div {
