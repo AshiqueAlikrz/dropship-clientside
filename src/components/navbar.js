@@ -1,11 +1,17 @@
 import React from "react";
 import "../style/navbar.css";
 import ShoppingCartIcon from "../images/svg/shopping-cart-outline.svg";
+import ShoppingCartLogo from "../images/logo/krzlogo.png";
+import MoreSettingIcon from "../images/svg/more-vertical-outline.svg"
+ 
 
 const navbar = () => {
   return (
     <div className="navbar-main-div">
       <div className="navbar-div">
+        <div className="navbar-logo">
+          <img src={ShoppingCartLogo}  className="ShoppingCartLogo" alt=""></img>
+        </div>
         <div className="navbar-list-name">
           <ul>
             <li>Home</li>
@@ -56,8 +62,9 @@ const navbar = () => {
               </button>
             </label>
           </form>
-          
+
           <img src={ShoppingCartIcon} className="ShoppingCartIcon" alt=""></img>
+          <img src={MoreSettingIcon} className="ShoppingCartIcon" alt=""></img>
         </div>
       </div>
     </div>

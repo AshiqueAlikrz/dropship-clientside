@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: absolute;
   height: 90px;
   width: 100vw;
 }
@@ -15,13 +15,14 @@
   height: 70px;
   width: 95vw;
   background-color: #fff;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 
 .navbar-list-name ul {
   list-style: none;
   height: 70px;
-  width: 26vw;
+  width: 30vw;
   background-color:#fff;
   justify-content: space-evenly; 
   display: flex;align-items: center;
@@ -31,14 +32,27 @@
 .navbar-icons-div{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly ;
   height: 70px;
-  width: 24vw;
+  width: 25vw;
+  background-color: #fff;
+}
+.navbar-logo{
+  display: flex;
+  align-items: center;
+  /* justify-content: flex; */
+  height: 70px;
+  width: 40vw;
   background-color: #fff;
 }
 .ShoppingCartIcon{
   height: 40px;
   width: 30px;
+}
+.ShoppingCartLogo{
+  height: 80px;
+  width: 70px;
+  margin-left: 14px;
 }
 
 
