@@ -24,7 +24,7 @@ const navbar = () => {
         <div className="navbar-icons-div">
           <form className="form">
             <label htmlFor="search">
-              <input required autoComplete="off" placeholder="Search your chats" id="search" type="text" />
+              <input required autoComplete="off" placeholder="Search" id="search" type="text" />
               <div className="icon">
                 <svg
                   strokeWidth="2"

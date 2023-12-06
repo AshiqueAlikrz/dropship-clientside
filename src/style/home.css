@@ -4,16 +4,16 @@
   box-sizing: border-box;
 }
 .home-background {
-  background-image: url("../images/Red-Abstract-Lines-PNG-Background-Image.png");
+  background-image: url("../images/psdbgimg.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
   background-color: #ffffff;
 }
 
-
 .curesol-main-div {
   display: flex;
+  flex-wrap:wrap;
   justify-content: space-evenly;
   align-items: center;
   height: 100vh;
@@ -21,28 +21,77 @@
 
 .home-curesol-image {
   width: 40vw;
+  animation: slideUp 1s ease-in-out;
+  
+}
 
-  transform: scaleX(-1);
+
+/* slideup */
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .home-page-text {
+  
+  border-radius:10px ;
+  padding: px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  text-shadow: 2px 2px 4px rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  font-size: 60px;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-size: 65px;
+  animation: slideUp 1s ease-in-out;
 }
 
 .home-page-text2 {
   font-size: 2vw;
-  text-shadow: 2px 2px 4px rgb(24, 21, 21);
+  text-shadow: 2px 2px 4px rgb(255, 255, 255);
   font-size: 30px;
-  color: #ffffff;
+  color: #0b0808;
+  animation: slideUp 1s ease-in-out;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
+
 .home-text-main-div {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
+  gap: 10px;
+  /* height: 70px; */
+}
+
+
+.home-shopnow-button{
+  padding: 15px 30px;
+  border: 0;
+  border-radius: 100px;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: Bold;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  animation: slideUp 1s ease-in-out;
+
+}
+
+.home-shopnow-button:hover {
+  background-color: #6fc5ff;
+  box-shadow: 0 0 20px #6fc5ff50;
+  transform: scale(1.1);
+}
+
+.home-shopnow-button:active {
+  background-color: #3d94cf;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+  box-shadow: none;
+  transform: scale(0.98);
 }
