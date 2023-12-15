@@ -37,8 +37,8 @@ const services = () => {
       <div className="services-container">
         {data.map((item, index) => (
           <div className="services-single-data" key={index}>
-            <h2>{item.name}</h2>
             <img src={item.icon} className="services-svg"alt={item.name} />
+            <h2>{item.name}</h2>
             <h4>{item.details}</h4>
           </div>
         ))}

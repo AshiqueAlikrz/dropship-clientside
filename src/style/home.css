@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 .home-background {
-  background-image: url("../images/psdbgimg.jpg");
+  /* background-image: url("../images/psdbgimg.jpg"); */
+  background: linear-gradient(to right, #dbcb84, #ffffff);
+  
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -17,10 +19,13 @@
   justify-content: space-evenly;
   align-items: center;
   height: 100vh;
+  
+  width: 100vw;
 }
 
 .home-curesol-image {
   width: 40vw;
+  filter:drop-shadow(0px 0px 10px rgba(0,0,0,0.5));
   animation: slideUp 1s ease-in-out;
   
 }
@@ -48,6 +53,7 @@
   color: rgb(255, 255, 255);
   font-size: 65px;
   animation: slideUp 1s ease-in-out;
+  
 }
 
 .home-page-text2 {
@@ -65,7 +71,6 @@
   justify-content: space-between;
   align-items: center;
   gap: 10px;
-  /* height: 70px; */
 }
 
 
